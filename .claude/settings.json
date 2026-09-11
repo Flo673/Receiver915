@@ -1,0 +1,43 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls -la \"c:\\\\Users\\\\flo\\\\VSProjects\\\\Coww\\\\LaserCH4_Receiver\" 2>&1; echo \"---\"; ls -la \"c:\\\\Users\\\\flo\\\\VSProjects\\\\Coww\\\\LaserCH4\" 2>&1)",
+      "Read(//c/Users/flo/VSProjects/Coww/LaserCH4/**)",
+      "PowerShell(pio run)",
+      "Read(//c/Users/flo/VSProjects/Coww/LaserCH4/src/**)",
+      "Bash(python -m pip show serial)",
+      "Bash(python -m pip show pyserial)",
+      "Bash(python -m pip uninstall -y serial)",
+      "Bash(python -m pip install pyserial)",
+      "Bash(python log_serial.py --help)",
+      "Bash(python -c \"import log_serial\")",
+      "Bash(ls -la \"c:\\\\Users\\\\flo\\\\VSProjects\\\\Coww\" 2>&1)",
+      "Read(//c/Users/flo/VSProjects/Coww/**)",
+      "Read(//c/Users/flo/VSProjects/Coww/LaserCH4_Board2/**)",
+      "Read(//c/Users/flo/VSProjects/Coww/LaserCH4_Board2/src/**)",
+      "Bash(python -c ' *)",
+      "Bash(rmdir \"c:\\\\Users\\\\flo\\\\VSProjects\\\\Coww\\\\LaserCH4_Receiver\\\\ch4_log_sessions\\\\20260831_094400\")",
+      "Bash(rmdir \"c:\\\\Users\\\\flo\\\\VSProjects\\\\Coww\\\\LaserCH4_Receiver\\\\ch4_log_sessions\")",
+      "Bash(ls -la \"c:\\\\Users\\\\flo\\\\VSProjects\\\\Coww\\\\FSRCalibration\" 2>&1)",
+      "Read(//c/Users/flo/VSProjects/Coww/FSRCalibration/**)",
+      "Bash(ls \"C:\\\\Users\\\\flo\\\\VSProjects\\\\Coww\")",
+      "Bash(python -m py_compile log_serial.py)",
+      "Bash(python test_sampler.py)",
+      "WebSearch",
+      "Skill(update-config)",
+      "Skill(update-config:*)",
+      "Bash(ls -la \"C:/Users/flo/VSProjects/Coww\")",
+      "Bash(ls -la \"C:/Users/flo/VSProjects/Coww/calibrationBoard1/.pio/build/calibrationBoard1/firmware.bin\" \"C:/Users/flo/VSProjects/Coww/Receiver915/src/main.cpp\" \"C:/Users/flo/VSProjects/Coww/calibrationBoard1/src/main.cpp\" \"C:/Users/flo/VSProjects/Coww/calibrationBoard2/src/main.cpp\")",
+      "Read(//c/Users/flo/VSProjects/Coww/calibrationBoard1/.pio/build/calibrationBoard1/**)",
+      "PowerShell(& \"C:\\\\Users\\\\flo\\\\.platformio\\\\penv\\\\Scripts\\\\pio.exe\" run)",
+      "PowerShell(& \"C:\\\\Users\\\\flo\\\\.platformio\\\\penv\\\\Scripts\\\\pio.exe\" device list)",
+      "PowerShell(& \"C:\\\\Users\\\\flo\\\\.platformio\\\\penv\\\\Scripts\\\\pio.exe\" run -t upload --upload-port COM42)",
+      "PowerShell(Get-CimInstance Win32_Process -Filter \"Name='python.exe'\")",
+      "Bash(gh auth *)",
+      "Bash(git --version)"
+    ],
+    "additionalDirectories": [
+      "C:\\Users\\flo\\.claude"
+    ]
+  }
+}
