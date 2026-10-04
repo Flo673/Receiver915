@@ -1,0 +1,2 @@
+timestamp,board_id,inircd100_voltage,inircd100_pctvol,inircd100_digital_pctvol,inircd100_temp_c,inirme100_voltage,inirme100_pctvol,battery_voltage,rssi,snr,sample
+2026-10-04T14:48:25,2,1.260,0.76,0.0000,0.0,1.268,1.41,3.84,-54,8.75,
